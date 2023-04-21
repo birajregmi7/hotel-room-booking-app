@@ -67,6 +67,8 @@ const Hotels = () => {
 
     const fetchUser = async () => {
         try {
+            if (localStorage.getItem('token') === null) return;
+            
             const res = await axios.get('/api/auth/profile', {
                 headers: {
                     'token': localStorage.getItem('token')
@@ -83,6 +85,10 @@ const Hotels = () => {
 
     const addTowishlist = async (hotel) => {
         try {
+        if (localStorage.getItem('token') === null) {
+            alert('Please login to add to wishlist');
+            return;
+        }
           const res = await axios.post('/api/auth/addTowishlist', { hotel }, {
             headers: {
                 'token': localStorage.getItem('token')
@@ -214,4 +220,3 @@ const Hotels = () => {
 };
 
 export default Hotels;
-
