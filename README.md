@@ -19,6 +19,8 @@ This is a full stack web application built using React, Node.js, Express, and Mo
 
 ## Routes
 
+Example: `http://localhost:5000/api/hotels`
+
 - POST /api/auth/register
 - POST /api/auth/login
 - GET /api/auth/profile
