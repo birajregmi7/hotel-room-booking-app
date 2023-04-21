@@ -20,6 +20,43 @@ This is a full stack web application built using React, Node.js, Express, and Mo
 ## Routes
 
 Example: `http://localhost:5000/api/hotels`
+```json
+{
+  "name": "The Oberoi",
+  "description": "A five-star hotel in Bengaluru that offers spacious rooms, lush gardens and a range of dining options.",
+  "thumbnail": "https://p.bookcdn.com/data/Photos/Big/2802/280227/280227909/The-Oberoi-Bengaluru-photos-Exterior-Exterior-View.JPEG",
+  "photos": [
+    "https://i.travelapi.com/hotels/1000000/30000/21700/21672/091e0da7_z.jpg",
+    "https://i.travelapi.com/lodging/1000000/30000/21700/21672/e66fb5e5_z.jpg",
+    "http://www.cfmedia.vfmleonardo.com/imageRepo/6/0/102/968/196/TOBL_Business_Centre_board_room_1_P.jpg",
+    "https://q-xx.bstatic.com/xdata/images/hotel/840x460/47332041.jpg?k=57b8804a2c78b7c0d606a6296307f81887bc85dd6ad2c46ae3ce99b6b026e9c6&o=",
+    "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/47333165.jpg?k=db4d3a70602042f50cd96765f627bdc1c6c9d8bbb0d9ae350027bd650afb4f99&o=",
+    "https://i.travelapi.com/lodging/1000000/30000/21700/21672/51d47acc_z.jpg",
+    "http://www.cfmedia.vfmleonardo.com/imageRepo/6/0/102/968/450/TOBL_The_Lobby_new_big_P.jpg"
+  ],
+  "facilities": [
+    "Free Wi-Fi",
+    "Swimming pool",
+    "Spa",
+    "Restaurant",
+    "Bar",
+    "Gym",
+    "Parking"
+  ],
+  "totalBookings": 89,
+  "rating": 4.7,
+  "minPrice": 9000,
+  "maxPrice": 20000,
+  "type": "Luxury",
+  "address": {
+    "street": "37-39, Mahatma Gandhi Road",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India",
+    "zip": "560001"
+  }
+}
+```
 
 - POST /api/auth/register
 - POST /api/auth/login
