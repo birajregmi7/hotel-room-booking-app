@@ -29,7 +29,6 @@ const Login = () => {
             const body = JSON.stringify(newUser);
 
             const res = await axios.post('/api/auth/login', body, config);
-            console.log(res.data);
             if (res.data.token) {
                 localStorage.setItem('token', res.data.token);
                 window.location.href = '/';
@@ -47,7 +46,7 @@ const Login = () => {
 
     return (
         <div className="flex items-center justify-center h-screen">
-            <div className="p-8 w-1/3">
+            <div className="p-8 md:w-1/3 w-full">
                 <div className="font-bold text-xl mb-2 text-center">Login</div>
                 <form onSubmit={e => onSubmit(e)}>
                     <div className="mb-4">

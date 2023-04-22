@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Hotel room booking app",
   "main": "server.js",
-  "author": "Saurav Hathi",
+  "author": "Biraj Regmi",
   "license": "MIT",
   "scripts": {
     "start": "nodemon server.js",

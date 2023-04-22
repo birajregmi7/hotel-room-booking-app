@@ -65,3 +65,7 @@ Start the server
 ```bash
 npm start
 ```
+
+## Author
+
+- [Saurav Hathi](https://github.com/sauravhathi)
