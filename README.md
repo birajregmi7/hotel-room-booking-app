@@ -6,6 +6,9 @@ This is a full stack web application built using React, Node.js, Express, and Mo
 ![image](https://user-images.githubusercontent.com/53424917/233553747-8c6eab14-e6df-47fe-a231-4e4ce290af37.png)
 
 ![image](https://user-images.githubusercontent.com/53424917/233553823-a3442389-a0f0-4aee-bf7a-3307f9d4591d.png)
+
+![image](https://user-images.githubusercontent.com/53424917/233799578-84393602-e98e-473e-83dc-e1735cfa5636.png)
+
 ### Whishlist
 ![image](https://user-images.githubusercontent.com/53424917/233553867-e421314a-e4ac-461f-bd21-9c5e787ca5db.png)
 
